@@ -1,6 +1,4 @@
-﻿module SampleScript
-
-let greetPerson (name, age) = sprintf "Hello, %s. You are %d years old" name age
+﻿let greetPerson (name, age) = sprintf "Hello, %s. You are %d years old" name age
 let add (first, second) = first + second
 let total() = sprintf "Total is : %d" (add (20, 3))
 let rand = System.Random()
