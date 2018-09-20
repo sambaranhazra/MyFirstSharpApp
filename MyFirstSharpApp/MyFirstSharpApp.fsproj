@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CollectionDemo.fsx" />
+    <None Include="DirectoryTraversal.fsx" />
     <None Include="FormCreationScript.fsx" />
     <None Include="HigherOrder.fsx" />
     <None Include="SampleScript.fsx" />
