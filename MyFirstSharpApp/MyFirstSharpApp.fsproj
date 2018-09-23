@@ -53,6 +53,7 @@
     <None Include="DirectoryTraversal.fsx" />
     <None Include="FormCreationScript.fsx" />
     <None Include="HigherOrder.fsx" />
+    <None Include="PatternMatching.fsx" />
     <None Include="SampleScript.fsx" />
   </ItemGroup>
   <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
