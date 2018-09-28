@@ -1,1 +1,4 @@
 .idea/
+.vs/
+MyFirstSharpApp/obj/Debug/MyFirstSharpApp.fsproj.CoreCompileInputs.cache
+MyFirstSharpApp/obj/MyFirstSharpApp.fsprojAssemblyReference.cache
