@@ -32,6 +32,21 @@
     <WarningLevel>3</WarningLevel>
     <OtherFlags>--warnon:1182</OtherFlags>
   </PropertyGroup>
+  <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Domain.fs" />
+    <Compile Include="Operations.fs" />
+    <Compile Include="Program.fs" />
+    <Content Include="packages.config" />
+    <None Include="CollectionDemo.fsx" />
+    <None Include="DirectoryTraversal.fsx" />
+    <None Include="FormCreationScript.fsx" />
+    <None Include="HigherOrder.fsx" />
+    <None Include="PatternMatching.fsx" />
+    <None Include="SampleScript.fsx" />
+    <None Include="RomanNumerals.fsx" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
     <Reference Include="System" />
@@ -41,19 +56,4 @@
       <HintPath>..\packages\FSharp.Core.4.5.2\lib\net45\FSharp.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Domain.fs" />
-    <Compile Include="Operations.fs" />
-    <Compile Include="Program.fs" />
-    <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CollectionDemo.fsx" />
-    <None Include="DirectoryTraversal.fsx" />
-    <None Include="FormCreationScript.fsx" />
-    <None Include="HigherOrder.fsx" />
-    <None Include="SampleScript.fsx" />
-  </ItemGroup>
-  <Import Project="$(FSharpTargetsPath)" Condition="Exists('$(FSharpTargetsPath)')" />
 </Project>
